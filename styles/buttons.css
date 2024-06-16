@@ -1,0 +1,29 @@
+
+.buttons {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.bt- {
+  padding: 10px 20px;
+  font-size: 12px;
+  color: black;
+  background-color: transparent;
+  border:2px solid #0101;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 15px 0 0;
+}
+
+.bt-:hover {
+  background-color: #92895a;
+  color: aliceblue;
+}
+
+.bt-:last-child {
+  align-items: flex-end;
+}
